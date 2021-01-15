@@ -9,7 +9,7 @@
         <h1 class="quiz-results__header" v-if="formSubmitted">Ваш результат</h1>
         <Form v-show="!formSubmitted" />
         <div class="quiz-results    __result-item-wrapper" v-if="formSubmitted">
-            <result-item  v-for="(category, index) in answersScores" :key="index" :category="category" />
+            <result-item  v-for="(answer, index) in answersScores" :key="index" :answer="answer" :category="getCategory(categories, answer.var)" />
         </div>
         <h1 v-show="formSubmitted" class="quiz-results__description-header" >Описание факторов</h1>
         <categoryDescription v-show="formSubmitted" :answers="answersScores" :categories="categories"></categoryDescription>  
@@ -42,8 +42,18 @@ export default {
             answersScores: state => state.answersScores,
             formSubmitted: state => state.formSubmitted,
             quizFinished: state => state.quizFinished
-        })
-
+        }),
+        methods: {
+            getCategory(categories, name) {
+                let result = {} 
+                categories.forEach(item => {
+                    if (item.var == name) {
+                         result = item
+                    }
+               }) 
+               return result 
+            }
+        }
 }
 </script>
 

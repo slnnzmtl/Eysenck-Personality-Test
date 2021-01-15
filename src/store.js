@@ -15,74 +15,95 @@ const defaultState = () => {
     answersScores: {
         permissiveness: {
           name: "Дозволенность",
+          var: "",
+          var: 'permissiveness',
           value: 0,
           max: 14,
         },
         realization: {
           name: "Реализованность",
+          var: "realization",
           value: 0,
           max: 12,
         },
         neuroticism: {
           name: "Сексуальная невротичность",
+          var: "neuroticism",
           value: 0,
           max: 9,
         },
         impersonalSex: {
           name: "Обезличенный секс",
+          var: "impersonalSex",
           value: 0,
-          max: 9,
+          max: 12,
         },
         pornography: {
           name: "Порнография",
+          var: "pornography",
           value: 0,
           max: 8,
         },
         shyness: {
           name: "Сексуальная застенчивость",
+          var: "shyness",
           value: 0,
           max: 6,
         },
         chastity: {
           name: "Целомудрие",
+          var: "chastity",
           value: 0,
           max: 8,
         },
         aversion: {
-          name: "Отвращение к сексу",
+          name: "Сексуальное отвращение",
+          var: "aversion",
           value: 0,
           max: 6,
         },
         excitability: {
           name: "Сексуальная возбудимость",
+          var: "excitability",
           value: 0,
           max: 9,
         },
         physicalSex: {
           name: "Физический секс",
+          var: "physicalSex",
           value: 0,
           max: 9,
         },
         aggressiveSex: {
           name: "Агрессивный секс",
+          var: "aggressiveSex",
           value: 0,
           max: 6,
         },
         libido: {
           name: "Сексуальное либидо",
+          var: "libido",
           value: 0,
-          max: 9,
+          max: 34,
         },
         satisfaction: {
           name: "Сексуальная удовлетворенность",
+          var: "satisfaction",
           value: 0,
           max: 16,
         },
         MasculinityFemininity: {
           name: "Маскулинность – Фемининность",
+          var: "MasculinityFemininity",
           value: 0,
-          max: 42,
+          max: 48,
       },
+      empty: {
+        name: 'empty',
+        var: "empty",
+        value: 0,
+        max: 0,
+      }
     }
   }
 }

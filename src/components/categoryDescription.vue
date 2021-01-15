@@ -2,7 +2,7 @@
   <div class="category-description">
       <div class="category-description__item" v-for="(category, index) in categories" :key="index">
         <h2 class="category-description__name">{{ category.name }}</h2>
-        <p class="category-description__level">{{ answers[category.var].value >= category[gender] ? 'Высокий уровень' : 'Низкий уровень' }} ({{ answers[category.var].value }} / {{ answers[category.var].max }}) </p>
+        <p class="category-description__level">{{ answers[category.var].value >= category[gender] ? 'Высокий уровень' : 'Низкий уровень' }} ({{ getScore(answers[category.var].value, category[gender]) }} / {{ category[gender] }}) </p>
         <p class="category-description__description">{{ category.description }}</p>
       </div>
   </div>
@@ -15,6 +15,11 @@ export default {
         'categories',
         'answers',
     ],
+    methods: {
+        getScore(value, max) {
+            return value <= max ? value : max
+        }
+    },
     computed: mapState({
         gender: state => state.gender,
     })

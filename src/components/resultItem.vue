@@ -1,11 +1,11 @@
 <template>
-    <div class="quiz-results__item">
+    <div class="quiz-results__item" v-if="answer.var != 'empty'">
         <Label class="quiz-results__category">
-            <p class="quiz-results__category-name">{{category.name}}:</p>
+            <p class="quiz-results__category-name">{{answer.name}}:</p>
             <div class="quiz-results__values">
                 <!-- <div class="quiz-results__min"></div> -->
-                    <progressBar :value="category.value" :max="category.max"></progressBar>
-                    <div class="quiz-results__max">{{category.value}} / {{category.max}}</div>
+                    <progressBar :value="answer.value" :max="answer.max"></progressBar>
+                    <div class="quiz-results__max">{{getScore(answer.value, category[gender])}} / {{categories ? categories[category.var].max   : 0}}</div>
             </div>
         </Label>
     </div>
@@ -13,14 +13,25 @@
 
 <script>
 import progressBar from '@/components/progress-bar.vue'
+import {mapState} from 'vuex'
 
 export default {
     components: {
         progressBar
     },
     props: [
-        'category'
-    ]
+        'category',
+        'answer'
+    ],
+    methods:{ 
+        getScore(value, max) {
+            return value <= max ? value : max
+        }
+    },
+    computed: mapState({
+        gender: state => state.gender,
+        categories: state => state.answersScores
+    })
 }
 </script>
 

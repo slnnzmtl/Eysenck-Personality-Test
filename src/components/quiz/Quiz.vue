@@ -90,7 +90,7 @@ export default {
       flex-direction: column;
       width: 80%;
       margin: auto;
-      align-items: center;
+      align-items: flex-start;
 
         .quiz__question {
             max-width: 1300px;
@@ -154,6 +154,10 @@ export default {
                             visibility: visible;
                         }
                     }
+                   .quiz__question-button .button__active {
+                        background-color: #FB7C81 !important;
+                        color: #fff;
+                    }
                 }
             }
         }
@@ -178,9 +182,6 @@ export default {
             line-height: 80px;
         }
 
-    .button__active {
-            background-color: #FB7C81 !important;
-            color: #fff;
-        }
+    
     }
 </style>
