@@ -30,13 +30,13 @@ const defaultState = () => {
           name: "Сексуальная невротичность",
           var: "neuroticism",
           value: 0,
-          max: 9,
+          max: 13,
         },
         impersonalSex: {
           name: "Обезличенный секс",
           var: "impersonalSex",
           value: 0,
-          max: 12,
+          max: 14,
         },
         pornography: {
           name: "Порнография",
@@ -54,7 +54,7 @@ const defaultState = () => {
           name: "Целомудрие",
           var: "chastity",
           value: 0,
-          max: 8,
+          max: 9,
         },
         aversion: {
           name: "Сексуальное отвращение",
@@ -72,7 +72,7 @@ const defaultState = () => {
           name: "Физический секс",
           var: "physicalSex",
           value: 0,
-          max: 9,
+          max: 10,
         },
         aggressiveSex: {
           name: "Агрессивный секс",
@@ -84,7 +84,7 @@ const defaultState = () => {
           name: "Сексуальное либидо",
           var: "libido",
           value: 0,
-          max: 34,
+          max: 36,
         },
         satisfaction: {
           name: "Сексуальная удовлетворенность",
@@ -96,14 +96,14 @@ const defaultState = () => {
           name: "Маскулинность – Фемининность",
           var: "MasculinityFemininity",
           value: 0,
-          max: 48,
+          max: 50,
       },
-      empty: {
-        name: 'empty',
-        var: "empty",
-        value: 0,
-        max: 0,
-      }
+      // empty: {
+      //   name: 'empty',
+      //   var: "empty",
+      //   value: 0,
+      //   max: 0,
+      // }
     }
   }
 }

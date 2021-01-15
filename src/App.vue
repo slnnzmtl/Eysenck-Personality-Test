@@ -21,6 +21,9 @@ export default {
       margin: 0px;
       padding: 0px;
   }
+  html {
+    width: 100%;
+  }
 
   #app {
       width: 100%;
