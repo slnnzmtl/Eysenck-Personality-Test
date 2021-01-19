@@ -7,5 +7,10 @@ export default {
     ],
     components: {
         DescriptionItem
+    },
+    methods: {
+        categoriesSlice(array, num1, num2) {
+            return array.slice(num1, num2)
+        }
     }
 }

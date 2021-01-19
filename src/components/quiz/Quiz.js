@@ -1,4 +1,5 @@
 import ProgressBar from '@/components/progress-bar/ProgressBar.vue'
+import ResetButton from '@/components/resetButton/ResetButton.vue'
 let questions = require('@/assets/questions.js')
 import Question from "./__question/Question.vue"
 import {mapState} from 'vuex'
@@ -11,7 +12,8 @@ import {mapState} from 'vuex'
 export default {
     components: {
         ProgressBar,
-        Question
+        Question,
+        ResetButton
     },
     computed: mapState({
         questionIndex: state => state.questionIndex

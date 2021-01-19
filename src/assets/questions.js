@@ -6,7 +6,7 @@ let questions = [
       },
       responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 }, 
+        { text: 'Не уверен', value: 0.5 }, 
         { text: 'Нет', value: 1 },
       ]
     },
@@ -19,7 +19,7 @@ let questions = [
         },
       responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 }, 
+        { text: 'Не уверен', value: 0.5 }, 
         { text: 'Нет', value: 1 },
       ]
     },
@@ -31,7 +31,7 @@ let questions = [
       },
       responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 }, 
+        { text: 'Не уверен', value: 0.5 }, 
         { text: 'Нет', value: 1 },
       ]
     },
@@ -43,7 +43,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -55,7 +55,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -67,7 +67,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -79,7 +79,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -90,7 +90,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -102,7 +102,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -115,7 +115,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -127,7 +127,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -138,7 +138,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -149,7 +149,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -160,7 +160,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -171,7 +171,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -183,7 +183,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -194,7 +194,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -207,7 +207,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -219,7 +219,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -232,7 +232,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -244,7 +244,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -255,7 +255,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -266,7 +266,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },  {
@@ -276,7 +276,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -287,7 +287,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -297,7 +297,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -308,7 +308,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -319,7 +319,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -330,7 +330,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -342,7 +342,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },  {
@@ -353,7 +353,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },{
@@ -364,7 +364,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -374,7 +374,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -386,7 +386,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -397,7 +397,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -407,7 +407,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -420,7 +420,7 @@ let questions = [
     },
     responses: [
     { text: 'Да', value: 1 },
-    { text: '?', value: 0.5 },
+    { text: 'Не уверен', value: 0.5 },
     { text: 'Нет', value: 0 },
 ]
 },
@@ -432,7 +432,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -445,7 +445,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -458,7 +458,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },{
@@ -469,7 +469,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },{
@@ -480,7 +480,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -492,7 +492,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -504,7 +504,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -515,7 +515,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -527,7 +527,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -538,7 +538,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -549,7 +549,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -559,7 +559,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -569,7 +569,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -580,7 +580,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -592,7 +592,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     }, {
@@ -602,7 +602,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -613,7 +613,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -625,7 +625,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },{
@@ -637,7 +637,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },{
@@ -647,7 +647,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -660,7 +660,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },
@@ -672,7 +672,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -683,7 +683,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -694,7 +694,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -705,7 +705,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -716,7 +716,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -728,7 +728,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1 },
         ]
     },{
@@ -740,7 +740,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -751,7 +751,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -762,7 +762,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -773,7 +773,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -784,7 +784,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1},
         ]
     },
@@ -795,7 +795,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -808,7 +808,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1},
         ]
     },{
@@ -818,7 +818,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },
@@ -829,7 +829,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -840,7 +840,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     }, {
@@ -850,7 +850,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -862,7 +862,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -874,7 +874,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -886,7 +886,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -898,7 +898,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -908,7 +908,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1},
         ]
     },{
@@ -919,7 +919,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1},
         ]
     },
@@ -930,7 +930,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -941,7 +941,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },
@@ -953,7 +953,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     }, {
@@ -965,7 +965,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -976,7 +976,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -987,7 +987,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1},
         ]
     },
@@ -998,7 +998,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -1011,7 +1011,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },
@@ -1022,7 +1022,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -1033,7 +1033,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1},
         ]
     },{
@@ -1045,7 +1045,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -1055,7 +1055,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -1065,7 +1065,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -1077,7 +1077,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -1088,7 +1088,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -1099,7 +1099,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -1109,7 +1109,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -1119,7 +1119,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -1129,7 +1129,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -1140,7 +1140,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1},
         ]
     },{
@@ -1151,7 +1151,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -1161,7 +1161,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -1171,7 +1171,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -1181,7 +1181,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },
@@ -1193,7 +1193,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -1203,7 +1203,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
     },{
@@ -1214,7 +1214,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 1 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 0},
         ]
     },{
@@ -1225,7 +1225,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0.5 },
+            { text: 'Не уверен', value: 0.5 },
             { text: 'Нет', value: 1},
         ]
     },
@@ -1236,7 +1236,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },{
@@ -1246,7 +1246,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1257,7 +1257,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },{
@@ -1268,7 +1268,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1279,7 +1279,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },{
@@ -1289,7 +1289,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },{
@@ -1300,7 +1300,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1310,7 +1310,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },{
@@ -1321,7 +1321,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },{
@@ -1333,7 +1333,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1345,7 +1345,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1355,7 +1355,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1365,7 +1365,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },{
@@ -1375,7 +1375,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },{
@@ -1386,7 +1386,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1396,7 +1396,7 @@ let questions = [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },
@@ -1407,7 +1407,7 @@ let questions = [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },   {
@@ -1417,7 +1417,7 @@ let questions = [
 },
 responses: [
     { text: 'Да', value: 1 },
-    { text: '?', value: 0.5 },
+    { text: 'Не уверен', value: 0.5 },
     { text: 'Нет', value: 0},
 ]
 },{
@@ -1427,7 +1427,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },
@@ -1437,7 +1437,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },{
@@ -1447,7 +1447,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },{
@@ -1457,7 +1457,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1467,7 +1467,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },{
@@ -1478,7 +1478,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1489,7 +1489,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value:1},
     ]
 },{
@@ -1501,7 +1501,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },{
@@ -1511,7 +1511,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },
@@ -1522,7 +1522,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },
@@ -1533,7 +1533,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },{
@@ -1543,7 +1543,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },{
@@ -1553,7 +1553,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },
@@ -1565,7 +1565,7 @@ responses: [
 },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },
@@ -1576,7 +1576,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },
@@ -1587,7 +1587,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },{
@@ -1597,7 +1597,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },{
@@ -1607,7 +1607,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },
@@ -1620,7 +1620,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },
@@ -1631,7 +1631,7 @@ responses: [
     },
     responses: [
         { text: 'Да', value: 0 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 1},
     ]
 },
@@ -1642,7 +1642,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },
@@ -1653,7 +1653,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },
@@ -1665,7 +1665,7 @@ responses: [
 },
     responses: [
         { text: 'Да', value: 1 },
-        { text: '?', value: 0.5 },
+        { text: 'Не уверен', value: 0.5 },
         { text: 'Нет', value: 0},
     ]
 },
@@ -1676,7 +1676,7 @@ responses: [
         },
         responses: [
             { text: 'Да', value: 0 },
-            { text: '?', value: 0 },
+            { text: 'Не уверен', value: 0 },
             { text: 'Нет', value: 0 },
         ]
 },
@@ -1726,6 +1726,24 @@ responses: [
             { text: '##раз в неделю', value: 1 },
             { text: 'каждый день', value: 1 },
             { text: 'чаще одного раза в день', value: 1 },
+        ]
+},
+{
+    text: {
+        man: "Вы когда-либо страдали от ранней эякуляции",
+        woman: "Вы часто испытываете оргазм во время полового акта?",
+    },
+    
+        categories: {
+            empty: 0
+        },
+        responses: [
+            { text: 'Очень часто', value: 0 },
+            { text: 'часто', value: 0 },
+            { text: 'время от времени', value: 0 },
+            { text: 'не очень часто', value: 0 },
+            { text: 'крайне редко', value: 0 },
+            { text: 'никогда', value: 0 },
         ]
 },
 

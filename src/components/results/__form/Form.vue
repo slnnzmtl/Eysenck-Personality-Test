@@ -5,7 +5,7 @@
       </p>
       <form @submit.prevent="submit(user)" class="quiz-form__form">
           <input class="quiz-form__input quiz-form__name" placeholder="Ваше имя" type="text" name="first_name" v-model="user.first_name" :class="{'input_error' : errors.name }">
-          <input class="quiz-form__input quiz-form__phone" placeholder="+38 (096) 123 - 45 - 67" type="text" name="phone" v-model="user.phone" :class="{'input_error' : errors.phone }">
+          <input class="quiz-form__input quiz-form__phone" placeholder="Телефон" type="text" name="phone" v-model="user.phone" :class="{'input_error' : errors.phone }">
           <input class="quiz-form__input quiz-form__email" placeholder="Email" type="text" name="email" v-model="user.email" :class="{'input_error' : errors.email }">
           <p class="quiz-form__privacy-label"  :class="{'privacy_error' : errors.privacy }">
             <input type="checkbox" class="quiz-form__privacy" name="privacy" v-model="privacy">

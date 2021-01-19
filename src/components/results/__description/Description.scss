@@ -15,4 +15,15 @@
     &-item {
         margin-bottom: 20px;
     }
+
+    &__separator {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 2.83688px 8.09px rgba(196, 196, 196, 0.31);
+        border-radius: 9.21986px;
+        padding: 10px 20px 10px 20px;
+        word-wrap: wrap;
+        font-size: 13px;
+        white-space: pre-wrap;
+    }
 }

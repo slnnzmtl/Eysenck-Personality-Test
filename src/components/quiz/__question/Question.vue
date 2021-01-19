@@ -1,6 +1,6 @@
 <template>
-    <div class="question" v-show="index === questionIndex" >
-            <h2 class="question__text">{{questionIndex+1}}. {{ question.text }}</h2>
+    <div class="question" v-if="index === questionIndex" >
+            <h2 class="question__text">{{questionIndex+1}}. {{ getText(question.text) }}</h2>
             <div class="question__answers">
                 <button class="question__button" v-for="(response, index) in question.responses" 
                     :key="index"

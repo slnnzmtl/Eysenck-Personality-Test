@@ -7,9 +7,18 @@ export default {
         'max'
     ],
     computed: mapState({
-        questionIndex: state => state.questionIndex
+        questionIndex: state => state.questionIndex,
+        gender: state => state.gender
       }),
     methods: {
+        
+        getText(text) {
+            if (typeof text === 'object' && typeof text !== null) {
+                return text[this.gender]
+            } else {
+                return text
+            }
+        },
         mouseOver(){ 
             if (!event.target.className.includes('question__button-img')) {
                 event.target.classList.add('active')
