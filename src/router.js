@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Quiz from '@/components/quiz/Quiz.vue'
-import Hello from '@/components/helloPage/HelloPage.vue'
-import Results from '@/components/results/Results.vue'
+import TheQuizPage from '@/views/TheQuizPage/TheQuizPage.vue'
+import TheWelcomePage from '@/views/TheWelcomePage/TheWelcomePage.vue'
+import TheResultsPage from '@/views/TheResultsPage/TheResultsPage.vue'
 import gender from './middleware/gender'
 import isQuizNoFinished from './middleware/isQuizNoFinished'
 import isQuizFinished from './middleware/isQuizFinished'
@@ -11,13 +11,12 @@ import isQuizFinished from './middleware/isQuizFinished'
 Vue.use(Router)
 
 export default new Router({
-  // mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
       path: '/quiz',
-      name: 'quiz',
-      component: Quiz,
+      name: 'TheQuizPage',
+      component: TheQuizPage,
       meta: {
         middleware: [
             gender,
@@ -27,13 +26,13 @@ export default new Router({
     },
     {
       path: '/',
-      name: 'hello',
-      component: Hello
+      name: 'TheWelcomePage',
+      component: TheWelcomePage
     },
     {
       path: '/results',
-      name: 'results',
-      component: Results,
+      name: 'TheResultsPage',
+      component: TheResultsPage,
       meta: {
         middleware: [
           isQuizNoFinished
