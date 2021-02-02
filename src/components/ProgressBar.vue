@@ -35,12 +35,14 @@ export default {
 </script>
 
 <style lang='scss'>
-  .progress-bar {
+ .progress-bar {
     width: 100%;
     height: 20px;
     border: 1px solid #FCDFDF;
     border-radius: 6px;
     overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
    
     &__fill {

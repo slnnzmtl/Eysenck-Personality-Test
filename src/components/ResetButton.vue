@@ -16,13 +16,19 @@ export default {
 
 <style lang="scss">
 .reset-button {
+-webkit-box-sizing: border-box;
     box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
     margin: 5px;
     outline: none;
     border: none;
-    box-shadow: 0px 2.83688px 8.09px rgba(196, 196, 196, 0.31);
+    -webkit-box-shadow: 0px 2.83688px 8.09px rgba(196, 196, 196, 0.31);
+            box-shadow: 0px 2.83688px 8.09px rgba(196, 196, 196, 0.31);
     border-radius: 9.21986px;
     cursor: pointer;
     font-family: Open Sans;
@@ -31,9 +37,11 @@ export default {
     height: 60px;
     color: white;
     background-color: #FB7C81;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 25px;
     &:hover {
         color: white;
